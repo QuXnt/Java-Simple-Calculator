@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println(design + '\n' + "Calculator" + '\n' + design);
         do {
-            System.out.println("Choose to add, subtract, multiple, or divide");
+            System.out.println("Choose to add, subtract, multiply, or divide");
             selection = scan.nextLine();
 
             System.out.println("Enter your first value: ");
@@ -53,6 +53,7 @@ public class Main {
             selection = scan.nextLine();
             if(selection.equalsIgnoreCase("N") || selection.equalsIgnoreCase("No")){
                 done = true;
+		System.out.println("Thank you for using the program);    
             }
         } while (!done);
 
